@@ -100,7 +100,7 @@ export const MilestoneContent = ({
 								borderRadius: "20px",
 							}}>
 							<img
-								src="/public/DSC04182.JPG"
+								src="/DSC04182.JPG"
 								alt="contoh-gambar"
 								style={{
 									objectFit: "cover",
