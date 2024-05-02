@@ -5,7 +5,7 @@ import { SocMed, linkFooter } from "./data";
 const Footer = () => {
 	return (
 		<div className="w-full bottom-0 bg-[#6dd635] shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1)] z-50">
-			<div className=" tabletMax:hidden h-[30vh] tabletMax:h-[30vh] bg-[#202120] text-gray-400 border-t-[3px] border-[#6dd635]">
+			<div className=" tabletMax:hidden h-[32vh] bg-[#202120] text-gray-400 border-t-[3px] border-[#6dd635]">
 				{/* FOOTER PT 1 */}
 
 				<div className="flex flex-row justify-between">
@@ -75,14 +75,14 @@ const Footer = () => {
 
 					{/* FOOTER PT 3 */}
 
-					<div className="flex flex-col m-6 mr-[5rem] pl-6 border-l-[1px]">
+					<div className="flex flex-col m-6 mr-[4rem] pl-6 border-l-[1px]">
 						<p className="text-2xl font font-semibold">Navigate.</p>
 						<div className="grid grid-cols-2 justify-items-start gap-x-6 gap-y-[0]">
 							{linkFooter.map((link) => (
 								<Button
 									key={link.id}
 									variant="text"
-									sx={{ fontSize: "11px", padding: "4px" }}>
+									sx={{ fontSize: "11px", padding: "4px", textWrap: "nowrap" }}>
 									{link.title} <KeyboardArrowRight />
 								</Button>
 							))}
