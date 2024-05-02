@@ -26,7 +26,7 @@ export function Homepage() {
 					<p className="comp-desc mt-2 ml-1rem tabletMax:text-lg text-2xl font-head italic text-[#6dd635] font-semibold text-center rounded-md">
 						Change your wastes into treasures!
 					</p>
-					<div className="mt-[15rem] flex tablet:flex-row flex-col items-center gap-6 justify-center w-full">
+					<div className="mt-[10rem] flex tablet:flex-row flex-col items-center gap-6 justify-center w-full">
 						<Link to="/about">
 							<button className="text-[#fff] bg-[#fbfbfb] bg-opacity-20 hover:bg-[#14571c] p-3 border2 border-[#14571c] border-solid  rounded-[3px] text-lg font-semibold duration-200">
 								About Polymore
