@@ -15,15 +15,15 @@ export function Homepage() {
 				className="homeHero w-full h-screen "
 				style={{
 					backgroundImage:
-						"linear-gradient(to top, rgba(0, 0, 0, 1) 4%, rgba(0, 0, 0, 0)), url(public/homepagehero.jpg)",
+						"linear-gradient(to top, rgba(0, 0, 0, 1) 4%, rgba(0, 0, 0, 0)), url(/homepagehero.jpg)",
 					backgroundSize: "cover",
 				}}>
 				<div className="flex flex-col items-center justify-center tabletMax:pt-[6rem] pt-[10rem]">
 					<img
-						src="public/compro-logo-transparent.png"
+						src="/compro-logo-transparent.png"
 						className="tablet:w-[30rem] w-[14rem]"
 					/>
-					<p className="comp-desc mt-2 ml-1rem tabletMax:text-lg text-2xl font-head italic text-[#6dd635] font-semibold text-center rounded-md ">
+					<p className="comp-desc mt-2 ml-1rem tabletMax:text-lg text-2xl font-head italic text-[#6dd635] font-semibold text-center rounded-md">
 						Change your wastes into treasures!
 					</p>
 					<div className="mt-[15rem] flex tablet:flex-row flex-col items-center gap-6 justify-center w-full">
@@ -52,7 +52,7 @@ export function Homepage() {
 				</div>
 				<div className="flex flex-row tabletMax:flex-col tablet:mx-40 tablet:gap-[5rem] items-center pb-[3rem]">
 					<video
-						src="public/VideoProyekKKN.mp4"
+						src="/VideoProyekKKN.mp4"
 						autoPlay
 						loop
 						muted
