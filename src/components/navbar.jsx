@@ -35,7 +35,7 @@ export function Navbar() {
 			<div className="tabletMax:shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.2)] w-full h-full flex flex-row justify-between items-center bg-[white] z-50">
 				<Link to="/">
 					<img
-						src="public/compro-logo-transparent.png"
+						src="/compro-logo-transparent.png"
 						className=" w-[75px] tablet:ml-8 tabletMax:ml-4"
 					/>
 				</Link>

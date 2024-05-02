@@ -44,18 +44,14 @@ const Footer = () => {
 							<div className="flex flex-col ">
 								<p className="text-2xl font font-semibold">Our Supporters.</p>
 								<div className="flex flex-row gap-4 mt-3 ">
-									<img src="/public/kemnterianparis.png" width={50} />
-									<img
-										src="/public/kementrianlingkungan.png"
-										width={50}
-										height={50}
-									/>
-									<img src="/public/precplas.png" width={50} />
+									<img src="/kemnterianparis.png" width={50} />
+									<img src="/kementrianlingkungan.png" width={50} height={50} />
+									<img src="/precplas.png" width={50} />
 								</div>
 							</div>
 							<div>
 								<img
-									src="public/logotulisputih.png"
+									src="/logotulisputih.png"
 									className=" w-[10rem] tablet:ml-8 tabletMax:ml-4"
 								/>
 							</div>
