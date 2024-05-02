@@ -555,7 +555,7 @@ export function ResearchContent() {
 									alignItems: "center",
 								}}>
 								<img
-									src="/public/machinery.jpeg"
+									src="/machinery.jpeg"
 									className="tabletMax:w-[7rem] tabletMax:rounded-tl-lg tabletMax:rounded-bl-lg tablet:w-[100%] tablet:mx-auto tablet:h-[7rem] object-cover tablet:rounded-t-xl tablet:border-b-[#6dd635] border-b-3px border-solid"
 								/>
 								<Typography
