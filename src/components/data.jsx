@@ -79,22 +79,22 @@ export const client = [
 export const services = [
 	{
 		name: "Materials Exchange",
-		image: "/public/component_exchange_FILL0_wght400_GRAD0_opsz24.svg",
+		image: "/component_exchange_FILL0_wght400_GRAD0_opsz24.svg",
 		content: <MaterialExchange />,
 	},
 	{
 		name: "Furnitures & appliances",
-		image: "/public/shelves_FILL0_wght400_GRAD0_opsz24.svg",
+		image: "/shelves_FILL0_wght400_GRAD0_opsz24.svg",
 		content: <FurnitureAppliance />,
 	},
 	{
 		name: "Projects Partner",
-		image: "/public/partner_exchange_FILL0_wght400_GRAD0_opsz24.svg",
+		image: "/partner_exchange_FILL0_wght400_GRAD0_opsz24.svg",
 		content: <ProjectsPartners />,
 	},
 	{
 		name: "Research",
-		image: "/public/experiment_FILL0_wght400_GRAD0_opsz24.svg",
+		image: "/experiment_FILL0_wght400_GRAD0_opsz24.svg",
 		content: <ResearchContent />,
 	},
 ];
@@ -195,7 +195,7 @@ export const positionFin = [
 export const mainContMilestone = [
 	{
 		id: 1,
-		image: "/public/YMB_8227-Edit.jpg",
+		image: "/YMB_8227-Edit.jpg",
 		year: "2019",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		achievement: [
@@ -206,7 +206,7 @@ export const mainContMilestone = [
 	},
 	{
 		id: 2,
-		image: "/public/DSC02176.JPG",
+		image: "/DSC02176.JPG",
 		year: "2025",
 		desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
 		achievement: [
@@ -216,7 +216,7 @@ export const mainContMilestone = [
 	},
 	{
 		id: 3,
-		image: "/public/DSC03359.JPG",
+		image: "/DSC03359.JPG",
 		year: "2027",
 		desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo",
 		achievement: [
@@ -226,7 +226,7 @@ export const mainContMilestone = [
 	},
 	{
 		id: 4,
-		image: "/public/DSC06455.JPG",
+		image: "/DSC06455.JPG",
 		year: "2028",
 		desc: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi",
 		achievement: [
@@ -260,17 +260,17 @@ export const materialFlow = [
 	{
 		id: 1,
 		phase: "Your plastic bottle from office",
-		image: "/public/stock-image-material1.jpg",
+		image: "/stock-image-material1.jpg",
 	},
 	{
 		id: 2,
 		phase: "We process your waste & create a new raw material",
-		image: "/public/stock-image-material.jpg",
+		image: "/stock-image-material.jpg",
 	},
 	{
 		id: 3,
 		phase: "Ready to be processed at your will!",
-		image: "/public/stock-material-2.jpg",
+		image: "/stock-material-2.jpg",
 	},
 ];
 
@@ -290,25 +290,25 @@ export const cardsProduct = [
 	{
 		id: 1,
 		title: "Simple Outdoor Chair",
-		image: "/public/chair1.jpg",
+		image: "/chair1.jpg",
 		desc: "Lightweight but durable, resistant in all weather conditions",
 	},
 	{
 		id: 2,
 		title: "Plant Pots",
-		image: "/public/furnit2.jpg",
+		image: "/furnit2.jpg",
 		desc: "Durable, high longevity, compact, stack-able",
 	},
 	{
 		id: 3,
 		title: "Decorative Vase",
-		image: "/public/vase4.jpg",
+		image: "/vase4.jpg",
 		desc: "Highly durable, withstands fall damage, high longevity, custom colors/themes",
 	},
 	{
 		id: 4,
 		title: "Custom End Tables",
-		image: "/public/endtable3.jpg",
+		image: "/endtable3.jpg",
 		desc: "Lightweight but durable, easy to arrange, custom colors/themes",
 	},
 ];
@@ -317,19 +317,19 @@ export const projectsInfo = [
 	{
 		id: 1,
 		title: "Branch Workshop",
-		image: "/public/workshops1.jpg",
+		image: "/workshops1.jpg",
 		desc: "Ready to collaborate with government or private instituions on new workshops and new job opportunity for locals",
 	},
 	{
 		id: 2,
 		title: "Open Bazaar & Conventions",
-		image: "/public/bazaar.jpg",
+		image: "/bazaar.jpg",
 		desc: "Ready to promote redied products & prototype products, and public presentations",
 	},
 	{
 		id: 3,
 		title: "Community Services",
-		image: "/public/communityservice1.jpg",
+		image: "/communityservice1.jpg",
 		desc: "Expand the awareness for waste environment with locals",
 	},
 ];
@@ -338,19 +338,19 @@ export const protoInfo = [
 	{
 		id: 1,
 		title: "Sheets Materials",
-		image: "/public/sheets-products.jpg",
+		image: "/sheets-products.jpg",
 		desc: "Recycle material in shapes of sheets after compression process",
 	},
 	{
 		id: 2,
 		title: "Filaments Materials",
-		image: "/public/filaments.jpg",
+		image: "/filaments.jpg",
 		desc: "Recycle material in shapes of filaments after extrusion process",
 	},
 	{
 		id: 3,
 		title: "Block Materials",
-		image: "/public/blockprod.jpg",
+		image: "/blockprod.jpg",
 		desc: "Recycle material in shapes of filaments after compression/injection process",
 	},
 ];
