@@ -141,7 +141,7 @@ export function Homepage() {
 					</div>
 					<div
 						name="Contact"
-						className=" flex justify-center items-center tabletMax:w-[80%] mt-[2rem] tabletMax:p-4 tabletMax:border-[1px] rounded-lg tablet:w-[50%] tabletMax:mb-[6rem] ">
+						className=" flex justify-center items-center tabletMax:w-[80%] tabletMax:p-4 tabletMax:border-[1px] rounded-lg tablet:w-[50%] tabletMax:mb-[6rem] ">
 						<form
 							method="POST"
 							action="https://getform.io/f/eapdneza"
